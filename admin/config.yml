@@ -2,7 +2,7 @@ backend:
   name: github
   repo: bdimaggio/netlify-test
   branch: master
-  site_domain: gracious-colden-4bfca4.netlify.com/
+  site_domain: gracious-colden-4bfca4.netlify.com
 media_folder: "uploads/images"
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
