@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: bdimaggio/netlify-test
+  branch: master
+  site_domain: gracious-colden-4bfca4.netlify.com/
+media_folder: "uploads/images"
+collections:
+  - name: "post" # Used in routes, e.g. /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "event"
+    label: "Event"
+    folder: "_events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date & time", name: "date_time", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
