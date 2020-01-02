@@ -1,6 +1,6 @@
 - [ ] Issue #
-- [ ] Issue num in title   
-- [ ] Connected via "existing issue" dialog 
+- [ ] Put issue number in title   
+- [ ] Connect to issue via "Connect this pull request..." dialog 
 - [ ] Assign to, and request review from, someone (prob TA)
-- [ ] QA/testing instructions in *issue* body
-- [ ] Install instructions/dev notes:
+- [ ] Add QA/testing instructions in *issue* body
+- [ ] Add install instructions/dev notes below:
