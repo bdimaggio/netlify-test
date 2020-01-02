@@ -1,0 +1,6 @@
+- [ ] Issue #
+- [ ] Issue num in title   
+- [ ] Connected via "existing issue" dialog 
+- [ ] Assign to, and request review from, someone (prob TA)
+- [ ] QA/testing instructions in *issue* body
+- [ ] Install instructions/dev notes:
